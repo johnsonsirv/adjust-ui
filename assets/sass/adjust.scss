@@ -6,3 +6,16 @@ ol {
   margin:  0;
   padding: 0;
 }
+
+/* Framework Layout */
+
+// Global Configurations
+$display-grid: grid; 
+$display-flex: flex;
+$grid-config-size: 12;
+$grid-config-fr: 1fr;
+
+.row{
+    display: $display-grid;
+    grid-template-columns: repeat($grid-config-size, $grid-config-fr);
+}
