@@ -1,6 +1,8 @@
 /* Message alerts 
     Utilizes the partial _color
 */
+@import '../partials/colors';
+
 %alert-config {
     border: 1px solid #ccc;
     padding: 10px;
@@ -13,12 +15,14 @@
   
   .alert-success {
     @extend %alert-config;
+    border-color: var(--emerald);
     border-color: #2ECC40;
   }
   
   .alert-error {
     @extend %alert-config;
-    border-color: #FF4136;
+    border-color: var(--redpigment);
+    border-color: #ea2027;
   }
   
   .alert-warning {
@@ -29,5 +33,6 @@
 
   .alert-info{
     @extend %alert-config;
+    border-color: var(--aqua);
     border-color: #7FDBFF;
   }
