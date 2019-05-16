@@ -1,3 +1,475 @@
 /* Adjust UI Framework */
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+/* // main UI colors  (sourced from Colors clrs.cc */
+/* Backgrounds */
+.bg-navy {
+  background-color: #001F3F;
+}
+
+.bg-blue {
+  background-color: #0074D9;
+}
+
+.bg-aqua {
+  background-color: #7FDBFF;
+}
+
+.bg-teal {
+  background-color: #39CCCC;
+}
+
+.bg-olive {
+  background-color: #3D9970;
+}
+
+.bg-green {
+  background-color: #2ECC40;
+}
+
+.bg-lime {
+  background-color: #01FF70;
+}
+
+.bg-yellow {
+  background-color: #FFDC00;
+}
+
+.bg-orange {
+  background-color: #FF851B;
+}
+
+.bg-red {
+  background-color: #FF4136;
+}
+
+.bg-fuchsia {
+  background-color: #F012BE;
+}
+
+.bg-purple {
+  background-color: #B10DC9;
+}
+
+.bg-maroon {
+  background-color: #85144B;
+}
+
+.bg-white {
+  background-color: #FFFFFF;
+}
+
+.bg-gray {
+  background-color: #AAAAAA;
+}
+
+.bg-silver {
+  background-color: #DDDDDD;
+}
+
+.bg-black {
+  background-color: #111111;
+}
+
+/* Colors */
+.navy {
+  color: #001F3F;
+}
+
+.blue {
+  color: #0074D9;
+}
+
+.aqua {
+  color: #7FDBFF;
+}
+
+.teal {
+  color: #39CCCC;
+}
+
+.olive {
+  color: #3D9970;
+}
+
+.green {
+  color: #2ECC40;
+}
+
+.lime {
+  color: #01FF70;
+}
+
+.yellow {
+  color: #FFDC00;
+}
+
+.orange {
+  color: #FF851B;
+}
+
+.red {
+  color: #FF4136;
+}
+
+.fuchsia {
+  color: #F012BE;
+}
+
+.purple {
+  color: #B10DC9;
+}
+
+.maroon {
+  color: #85144B;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+.silver {
+  color: #DDDDDD;
+}
+
+.gray {
+  color: #AAAAAA;
+}
+
+.black {
+  color: #111111;
+}
+
+/* Border colors 
+
+   Use with another border utility that sets border-width and style 
+   i.e .border { border-width: 1px); border-style: solid); }     
+*/
+.border--navy {
+  border-color: #001F3F;
+}
+
+.border--blue {
+  border-color: #0074D9;
+}
+
+.border--aqua {
+  border-color: #7FDBFF;
+}
+
+.border--teal {
+  border-color: #39CCCC;
+}
+
+.border--olive {
+  border-color: #3D9970;
+}
+
+.border--green {
+  border-color: #2ECC40;
+}
+
+.border--lime {
+  border-color: #01FF70;
+}
+
+.border--yellow {
+  border-color: #FFDC00;
+}
+
+.border--orange {
+  border-color: #FF851B;
+}
+
+.border--red {
+  border-color: #FF4136;
+}
+
+.border--fuchsia {
+  border-color: #F012BE;
+}
+
+.border--purple {
+  border-color: #B10DC9;
+}
+
+.border--maroon {
+  border-color: #85144B;
+}
+
+.border--white {
+  border-color: #FFFFFF;
+}
+
+.border--gray {
+  border-color: #AAAAAA;
+}
+
+.border--silver {
+  border-color: #DDDDDD;
+}
+
+.border--black {
+  border-color: #111111;
+}
+
+/* Fills for SVG */
+.fill-navy {
+  fill: #001F3F;
+}
+
+.fill-blue {
+  fill: #0074D9;
+}
+
+.fill-aqua {
+  fill: #7FDBFF;
+}
+
+.fill-teal {
+  fill: #39CCCC;
+}
+
+.fill-olive {
+  fill: #3D9970;
+}
+
+.fill-green {
+  fill: #2ECC40;
+}
+
+.fill-lime {
+  fill: #01FF70;
+}
+
+.fill-yellow {
+  fill: #FFDC00;
+}
+
+.fill-orange {
+  fill: #FF851B;
+}
+
+.fill-red {
+  fill: #FF4136;
+}
+
+.fill-fuchsia {
+  fill: #F012BE;
+}
+
+.fill-purple {
+  fill: #B10DC9;
+}
+
+.fill-maroon {
+  fill: #85144B;
+}
+
+.fill-white {
+  fill: #FFFFFF;
+}
+
+.fill-gray {
+  fill: #AAAAAA;
+}
+
+.fill-silver {
+  fill: #DDDDDD;
+}
+
+.fill-black {
+  fill: #111111;
+}
+
+/* Strokes for SVG */
+.stroke-navy {
+  stroke: #001F3F;
+}
+
+.stroke-blue {
+  stroke: #0074D9;
+}
+
+.stroke-aqua {
+  stroke: #7FDBFF;
+}
+
+.stroke-teal {
+  stroke: #39CCCC;
+}
+
+.stroke-olive {
+  stroke: #3D9970;
+}
+
+.stroke-green {
+  stroke: #2ECC40;
+}
+
+.stroke-lime {
+  stroke: #01FF70;
+}
+
+.stroke-yellow {
+  stroke: #FFDC00;
+}
+
+.stroke-orange {
+  stroke: #FF851B;
+}
+
+.stroke-red {
+  stroke: #FF4136;
+}
+
+.stroke-fuchsia {
+  stroke: #F012BE;
+}
+
+.stroke-purple {
+  stroke: #B10DC9;
+}
+
+.stroke-maroon {
+  stroke: #85144B;
+}
+
+.stroke-white {
+  stroke: #FFFFFF;
+}
+
+.stroke-gray {
+  stroke: #AAAAAA;
+}
+
+.stroke-silver {
+  stroke: #DDDDDD;
+}
+
+.stroke-black {
+  stroke: #111111;
+}
+
+/* Other variations  */
+/* // Flat UI colors  */
+:root {
+  --turquoise: #1abc9c;
+  --greensea: #16a085;
+  --emrald: #2ecc71;
+  --nephritis: #27ae60;
+  --peterriver: #3498db;
+  --belieze-hole: #2980b9;
+  --amethyst: #9b59b6;
+  --wisteria: #8e44ad;
+  --wetasphalt: #34495e;
+  --midnight-blue: #2c3e50;
+  --sunflower: #f1c40f;
+  --carrot: #e67e22;
+  --pumpkin: #d35400;
+  --alazarin: #e74c3c;
+  --pomegranate: #c0392b;
+  --clouds: #ecf0f1;
+  --silver: #bdc3c7;
+  --concrete: #95a5a6;
+  --abestos: #7f8c8d;
+  /* // Dutch palette from Flat UI  */
+  --energos: #C4E538;
+  --bluematina: #12CBC4;
+  --lavenderrose: #FDA7DF;
+  --barared: #ED4C67;
+  --radiantyellow: #F79F1F;
+  --androidgreen: #A3CB38;
+  --mediterraneansea: #1289A7;
+  --lavendertea: #D980FA;
+  --veryberry: #B53471;
+  --puffinsbill: #EE5A24;
+  --pixelatedgrass: #009432;
+  --merchantmarineblue: #0652DD;
+  --forgottenpurple: #9980FA;
+  --hollyhock: #833471;
+  --redpigment: #EA2027;
+  --turkishaqua: #006266;
+  --underthesea: #1B1464;
+  --circumorbitalring: #5758BB;
+  --magentapurple: #6F1E51;
+  /* //spanish palette  */
+  --jacksonpurple: #40407a;
+  --luckypoint: #2c2c54;
+  --c84purple: #706fd3;
+  --libertypurple: #474787;
+  /* // Dark variations  */
+  --greyporcelain: #84817a;
+  --shadowedsteel: #4b4b4b;
+  --balticsea: #3d3d3d;
+  --goodnight: #485460;
+  --blackpearl: #1e272e;
+  --draculaorcid: #2d3436;
+  --americanriver: #636e72;
+  --imperialprimer: #222f3e;
+  --fueltown: #576574;
+  --electromagnet: #2f3640;
+  --bluenights: #353b48;
+}
+
+/* Framework Layout */
+.row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.col-12 {
+  grid-column: 12;
+}
+
+.col-11 {
+  grid-column: span 11;
+}
+
+.col-10 {
+  grid-column: span 10;
+}
+
+.col-9 {
+  grid-column: span 9;
+}
+
+.col-8 {
+  grid-column: span 8;
+}
+
+.col-7 {
+  grid-column: span 7;
+}
+
+.col-6 {
+  grid-column: span 6;
+}
+
+.col-5 {
+  grid-column: span 5;
+}
+
+.col-4 {
+  grid-column: span 4;
+}
+
+.col-3 {
+  grid-column: span 3;
+}
+
+.col-2 {
+  grid-column: span 2;
+}
+
+.col-1 {
+  grid-column: span 1;
+}
 
 /*# sourceMappingURL=adjust.css.map */

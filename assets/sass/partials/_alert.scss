@@ -1,0 +1,32 @@
+/* Message alerts 
+    Utilizes the partial _color
+*/
+%alert-config {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
+  }
+  
+  .alert {
+    @extend %alert-config;
+  }
+  
+  .alert-success {
+    @extend %alert-config;
+    border-color: green;
+  }
+  
+  .alert-error {
+    @extend %alert-config;
+    border-color: red;
+  }
+  
+  .alert-warning {
+    @extend %alert-config;
+    border-color: yellow;
+  }
+
+  .alert-info{
+    @extend %alert-config;
+    border-color: rgb(210, 238, 252);
+  }
