@@ -5,7 +5,8 @@
 %alert-config {
     border: 1px solid #ccc;
     padding: 10px;
-    color: #333;
+    color: var(--electromagnet);
+    color:#2f3640;
   }
   
   .alert {
@@ -15,7 +16,7 @@
   .alert-success {
     @extend %alert-config;
     border-color: var(--emerald);
-    border-color: #2ECC40;
+    border-color: #2ecc71;
   }
   
   .alert-error {
@@ -33,5 +34,5 @@
   .alert-info{
     @extend %alert-config;
     border-color: var(--aqua);
-    border-color: #7FDBFF;
+    border-color: #7fdb7f;
   }

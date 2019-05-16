@@ -7,7 +7,65 @@ ol {
   padding: 0;
 }
 
-/* // main UI colors  (sourced from Colors clrs.cc */
+/* Other variations  */
+/* // Flat UI colors  */
+:root {
+  --turquoise: #1abc9c;
+  --greensea: #16a085;
+  --emrald: #2ecc71;
+  --nephritis: #27ae60;
+  --peterriver: #3498db;
+  --belieze-hole: #2980b9;
+  --aqua: #7fdb7f;
+  --amethyst: #9b59b6;
+  --wisteria: #8e44ad;
+  --wetasphalt: #34495e;
+  --midnight-blue: #2c3e50;
+  --sunflower: #f1c40f;
+  --carrot: #e67e22;
+  --pumpkin: #d35400;
+  --alazarin: #e74c3c;
+  --pomegranate: #c0392b;
+  /* // Dutch palette from Flat UI  */
+  --energos: #C4E538;
+  --bluematina: #12CBC4;
+  --lavenderrose: #FDA7DF;
+  --barared: #ED4C67;
+  --radiantyellow: #F79F1F;
+  --androidgreen: #A3CB38;
+  --mediterraneansea: #1289A7;
+  --lavendertea: #D980FA;
+  --veryberry: #B53471;
+  --puffinsbill: #EE5A24;
+  --pixelatedgrass: #009432;
+  --merchantmarineblue: #0652DD;
+  --forgottenpurple: #9980FA;
+  --hollyhock: #833471;
+  --redpigment: #EA2027;
+  --turkishaqua: #006266;
+  --underthesea: #1B1464;
+  --circumorbitalring: #5758BB;
+  --magentapurple: #6F1E51;
+  /* //spanish palette   purple variations only*/
+  --jacksonpurple: #40407a;
+  --luckypoint: #2c2c54;
+  --c84purple: #706fd3;
+  --libertypurple: #474787;
+  /* // Dark variations  */
+  --greyporcelain: #84817a;
+  --shadowedsteel: #4b4b4b;
+  --balticsea: #3d3d3d;
+  --goodnight: #485460;
+  --blackpearl: #1e272e;
+  --draculaorcid: #2d3436;
+  --americanriver: #636e72;
+  --imperialprimer: #222f3e;
+  --fueltown: #576574;
+  --electromagnet: #2f3640;
+  --bluenights: #353b48;
+}
+
+/* // main UI colors  (sourced from Colors clrs.cc , khroma and flat UI*/
 /* Backgrounds */
 .bg-navy {
   background-color: #001F3F;
@@ -22,31 +80,31 @@ ol {
 }
 
 .bg-teal {
-  background-color: #39CCCC;
+  background-color: #006767;
 }
 
 .bg-olive {
-  background-color: #3D9970;
+  background-color: #608000;
 }
 
 .bg-green {
-  background-color: #2ECC40;
+  background-color: #2ecc71;
 }
 
 .bg-lime {
-  background-color: #01FF70;
+  background-color: #55ff00;
 }
 
 .bg-yellow {
-  background-color: #FFDC00;
+  background-color: #f1c40f;
 }
 
 .bg-orange {
-  background-color: #FF851B;
+  background-color: #e67e22;
 }
 
 .bg-red {
-  background-color: #FF4136;
+  background-color: #ea2027;
 }
 
 .bg-fuchsia {
@@ -54,95 +112,99 @@ ol {
 }
 
 .bg-purple {
-  background-color: #B10DC9;
+  background-color: #8e44ad;
 }
 
 .bg-maroon {
-  background-color: #85144B;
+  background-color: #801500;
 }
 
 .bg-white {
-  background-color: #FFFFFF;
+  background-color: #fafafa;
 }
 
 .bg-gray {
-  background-color: #AAAAAA;
+  background-color: #5a5a5a;
 }
 
 .bg-silver {
-  background-color: #DDDDDD;
+  background-color: #dedede;
 }
 
 .bg-black {
   background-color: #111111;
 }
 
-/* Colors */
-.navy {
+/* text Colors */
+.text-navy {
   color: #001F3F;
 }
 
-.blue {
+.text-blue {
   color: #0074D9;
 }
 
-.aqua {
+.text-aqua {
   color: #7FDBFF;
 }
 
-.teal {
-  color: #39CCCC;
+.text-teal {
+  color: #006767;
 }
 
-.olive {
-  color: #3D9970;
+.text-olive {
+  color: #608000;
 }
 
-.green {
-  color: #2ECC40;
+.text-green {
+  color: #2ecc71;
 }
 
-.lime {
-  color: #01FF70;
+.text-lime {
+  color: #55ff00;
 }
 
-.yellow {
-  color: #FFDC00;
+.text-yellow {
+  color: #f1c40f;
 }
 
-.orange {
-  color: #FF851B;
+.text-orange {
+  color: #e67e22;
 }
 
-.red {
-  color: #FF4136;
+.text-red {
+  color: #ea2027;
 }
 
-.fuchsia {
+.text-fuchsia {
   color: #F012BE;
 }
 
-.purple {
-  color: #B10DC9;
+.text-purple {
+  color: #8e44ad;
 }
 
-.maroon {
-  color: #85144B;
+.text-maroon {
+  color: #801500;
 }
 
-.white {
-  color: #FFFFFF;
+.text-white {
+  color: #fafafa;
 }
 
-.silver {
-  color: #DDDDDD;
+.text-silver {
+  color: #dedede;
 }
 
-.gray {
-  color: #AAAAAA;
+.text-silver {
+  color: #dedede;
 }
 
-.black {
+.text-gray {
+  color: #5a5a5a;
+}
+
+.text-black {
   color: #111111;
 }
 
@@ -164,31 +226,31 @@ ol {
 }
 
 .border--teal {
-  border-color: #39CCCC;
+  border-color: #006767;
 }
 
 .border--olive {
-  border-color: #3D9970;
+  border-color: #608000;
 }
 
 .border--green {
-  border-color: #2ECC40;
+  border-color: #2ecc71;
 }
 
 .border--lime {
-  border-color: #01FF70;
+  border-color: #55ff00;
 }
 
 .border--yellow {
-  border-color: #FFDC00;
+  border-color: #f1c40f;
 }
 
 .border--orange {
-  border-color: #FF851B;
+  border-color: #e67e22;
 }
 
 .border--red {
-  border-color: #FF4136;
+  border-color: #ea2027;
 }
 
 .border--fuchsia {
@@ -196,23 +258,23 @@ ol {
 }
 
 .border--purple {
-  border-color: #B10DC9;
+  border-color: #8e44ad;
 }
 
 .border--maroon {
-  border-color: #85144B;
+  border-color: #801500;
 }
 
 .border--white {
-  border-color: #FFFFFF;
+  border-color: #fafafa;
 }
 
 .border--gray {
-  border-color: #AAAAAA;
+  border-color: #5a5a5a;
 }
 
 .border--silver {
-  border-color: #DDDDDD;
+  border-color: #dedede;
 }
 
 .border--black {
@@ -233,31 +295,31 @@ ol {
 }
 
 .fill-teal {
-  fill: #39CCCC;
+  fill: #006767;
 }
 
 .fill-olive {
-  fill: #3D9970;
+  fill: #608000;
 }
 
 .fill-green {
-  fill: #2ECC40;
+  fill: #2ecc71;
 }
 
 .fill-lime {
-  fill: #01FF70;
+  fill: #55ff00;
 }
 
 .fill-yellow {
-  fill: #FFDC00;
+  fill: #f1c40f;
 }
 
 .fill-orange {
-  fill: #FF851B;
+  fill: #e67e22;
 }
 
 .fill-red {
-  fill: #FF4136;
+  fill: #ea2027;
 }
 
 .fill-fuchsia {
@@ -265,23 +327,23 @@ ol {
 }
 
 .fill-purple {
-  fill: #B10DC9;
+  fill: #8e44ad;
 }
 
 .fill-maroon {
-  fill: #85144B;
+  fill: #801500;
 }
 
 .fill-white {
-  fill: #FFFFFF;
+  fill: #fafafa;
 }
 
 .fill-gray {
-  fill: #AAAAAA;
+  fill: #5a5a5a;
 }
 
 .fill-silver {
-  fill: #DDDDDD;
+  fill: #dedede;
 }
 
 .fill-black {
@@ -302,31 +364,31 @@ ol {
 }
 
 .stroke-teal {
-  stroke: #39CCCC;
+  stroke: #006767;
 }
 
 .stroke-olive {
-  stroke: #3D9970;
+  stroke: #608000;
 }
 
 .stroke-green {
-  stroke: #2ECC40;
+  stroke: #2ecc71;
 }
 
 .stroke-lime {
-  stroke: #01FF70;
+  stroke: #55ff00;
 }
 
 .stroke-yellow {
-  stroke: #FFDC00;
+  stroke: #f1c40f;
 }
 
 .stroke-orange {
-  stroke: #FF851B;
+  stroke: #e67e22;
 }
 
 .stroke-red {
-  stroke: #FF4136;
+  stroke: #ea2027;
 }
 
 .stroke-fuchsia {
@@ -334,88 +396,27 @@ ol {
 }
 
 .stroke-purple {
-  stroke: #B10DC9;
+  stroke: #8e44ad;
 }
 
 .stroke-maroon {
-  stroke: #85144B;
+  stroke: #801500;
 }
 
 .stroke-white {
-  stroke: #FFFFFF;
+  stroke: #fafafa;
 }
 
 .stroke-gray {
-  stroke: #AAAAAA;
+  stroke: #5a5a5a;
 }
 
 .stroke-silver {
-  stroke: #DDDDDD;
+  stroke: #dedede;
 }
 
 .stroke-black {
   stroke: #111111;
-}
-
-/* Other variations  */
-/* // Flat UI colors  */
-:root {
-  --turquoise: #1abc9c;
-  --greensea: #16a085;
-  --emrald: #2ecc71;
-  --nephritis: #27ae60;
-  --peterriver: #3498db;
-  --belieze-hole: #2980b9;
-  --amethyst: #9b59b6;
-  --wisteria: #8e44ad;
-  --wetasphalt: #34495e;
-  --midnight-blue: #2c3e50;
-  --sunflower: #f1c40f;
-  --carrot: #e67e22;
-  --pumpkin: #d35400;
-  --alazarin: #e74c3c;
-  --pomegranate: #c0392b;
-  --clouds: #ecf0f1;
-  --silver: #bdc3c7;
-  --concrete: #95a5a6;
-  --abestos: #7f8c8d;
-  /* // Dutch palette from Flat UI  */
-  --energos: #C4E538;
-  --bluematina: #12CBC4;
-  --lavenderrose: #FDA7DF;
-  --barared: #ED4C67;
-  --radiantyellow: #F79F1F;
-  --androidgreen: #A3CB38;
-  --mediterraneansea: #1289A7;
-  --lavendertea: #D980FA;
-  --veryberry: #B53471;
-  --puffinsbill: #EE5A24;
-  --pixelatedgrass: #009432;
-  --merchantmarineblue: #0652DD;
-  --forgottenpurple: #9980FA;
-  --hollyhock: #833471;
-  --redpigment: #EA2027;
-  --turkishaqua: #006266;
-  --underthesea: #1B1464;
-  --circumorbitalring: #5758BB;
-  --magentapurple: #6F1E51;
-  /* //spanish palette  */
-  --jacksonpurple: #40407a;
-  --luckypoint: #2c2c54;
-  --c84purple: #706fd3;
-  --libertypurple: #474787;
-  /* // Dark variations  */
-  --greyporcelain: #84817a;
-  --shadowedsteel: #4b4b4b;
-  --balticsea: #3d3d3d;
-  --goodnight: #485460;
-  --blackpearl: #1e272e;
-  --draculaorcid: #2d3436;
-  --americanriver: #636e72;
-  --imperialprimer: #222f3e;
-  --fueltown: #576574;
-  --electromagnet: #2f3640;
-  --bluenights: #353b48;
 }
 
 /* Framework Layout */
@@ -470,6 +471,18 @@ ol {
 
 .col-1 {
   grid-column: span 1;
+}
+
+.wide {
+  gap: 50px;
+}
+
+.mid-gap {
+  gap: 25px;
+}
+
+.narrow {
+  gap: 10px;
 }
 
 /*# sourceMappingURL=adjust.css.map */
