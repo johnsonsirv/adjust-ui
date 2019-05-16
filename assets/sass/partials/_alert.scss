@@ -13,20 +13,21 @@
   
   .alert-success {
     @extend %alert-config;
-    border-color: green;
+    border-color: #2ECC40;
   }
   
   .alert-error {
     @extend %alert-config;
-    border-color: red;
+    border-color: #FF4136;
   }
   
   .alert-warning {
     @extend %alert-config;
-    border-color: yellow;
+    border-color: var(--sunflower);
+    border-color: #f1c40f;
   }
 
   .alert-info{
     @extend %alert-config;
-    border-color: rgb(210, 238, 252);
+    border-color: #7FDBFF;
   }
