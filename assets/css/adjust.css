@@ -420,6 +420,35 @@ ol {
 }
 
 /* Button styles and configurations */
+.btn {
+  border: solid 1px;
+  border-color: #84817a;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: transparent;
+  outline: none;
+  font-size: 13px;
+}
+
+.btn-danger {
+  color: #fafafa;
+  border: none;
+  background-color: #c0392b;
+}
+
+.btn-primary {
+  color: #fafafa;
+  border: none;
+  background-color: #3498db;
+}
+
+.btn-warning {
+  color: #fafafa;
+  border: none;
+  background-color: #f1c40f;
+}
+
 /* Framework Layout */
 .row {
   display: grid;
