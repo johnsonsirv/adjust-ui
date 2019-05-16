@@ -1,6 +1,7 @@
 root{
 
-    // khroma colors 
+    /* // khroma colors  */
+
     --forest-green: #24be38;
     --green-haze: #03b536;
     --emerald: #3cd052;
@@ -45,7 +46,7 @@ root{
     --straw: #ccbe7f;
     --drover: #fdf4b9;
 
-    // Flat UI colors 
+    /* // Flat UI colors  */
 
     --turquoise: #1abc9c;
     --greensea: #16a085;
@@ -67,7 +68,7 @@ root{
     --concrete: #95a5a6;
     --abestos: #7f8c8d;
 
-    // Dutch palette from Flat UI 
+    /* // Dutch palette from Flat UI  */
 
     
     
