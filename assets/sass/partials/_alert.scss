@@ -1,38 +1,26 @@
 /* Message alerts 
     Utilizes the partial _color
 */
+$alert-groups: (
+    error:  #ea2027,
+    danger: #c0392b,
+    info: #12CBC4,
+    success:  #2ecc71,
+    warning: #f1c40f
+);
 
-%alert-config {
+.alert {
     border: 1px solid #ccc;
     padding: 10px;
     color: var(--electromagnet);
     color:#2f3640;
   }
   
-  .alert {
-    @extend %alert-config;
-  }
-  
-  .alert-success {
-    @extend %alert-config;
-    border-color: var(--emerald);
-    border-color: #2ecc71;
-  }
-  
-  .alert-error {
-    @extend %alert-config;
-    border-color: var(--redpigment);
-    border-color: #ea2027;
-  }
-  
-  .alert-warning {
-    @extend %alert-config;
-    border-color: var(--sunflower);
-    border-color: #f1c40f;
-  }
-
-  .alert-info{
-    @extend %alert-config;
-    border-color: var(--aqua);
-    border-color: #7fdb7f;
-  }
+  @mixin make-alerts {
+    @each $group, $bg in $alert-groups {
+        .alert-#{$group}{
+            border-color: $bg;
+        }
+    }   
+}
+@include make-alerts

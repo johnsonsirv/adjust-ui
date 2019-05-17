@@ -499,35 +499,34 @@ ol {
 .row .narrow {
   gap: 10px;
 }
-
 /* Message alerts 
     Utilizes the partial _color
 */
-.alert-info, .alert-warning, .alert-error, .alert-success, .alert {
+.alert {
   border: 1px solid #ccc;
   padding: 10px;
   color: var(--electromagnet);
   color: #2f3640;
 }
 
-.alert-success {
-  border-color: var(--emerald);
-  border-color: #2ecc71;
-}
-
 .alert-error {
-  border-color: var(--redpigment);
   border-color: #ea2027;
 }
 
-.alert-warning {
-  border-color: var(--sunflower);
-  border-color: #f1c40f;
+.alert-danger {
+  border-color: #c0392b;
 }
 
 .alert-info {
-  border-color: var(--aqua);
-  border-color: #7fdb7f;
+  border-color: #12CBC4;
+}
+
+.alert-sucess {
+  border-color: #2ecc71;
+}
+
+.alert-warning {
+  border-color: #f1c40f;
 }
 
 /*# sourceMappingURL=adjust.css.map */
