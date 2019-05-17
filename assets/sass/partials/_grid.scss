@@ -41,3 +41,14 @@ $grid-gaps: (
     grid-template-columns: repeat(12, 1fr);
     @include create-grid(column);
 }
+
+
+.wide{
+  gap: 50px;
+}
+.mid-gap{
+  gap: 25px
+}
+.narrow{
+  gap: 10px;
+}
