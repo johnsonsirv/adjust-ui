@@ -1,0 +1,32 @@
+/* Button styles and configurations */
+$btn-groups: (
+    danger: #c0392b,
+    primary: #3498db,
+    warning: #f1c40f
+);
+
+
+@mixin make-btn {
+    @each $group, $bg in $btn-groups {
+        .btn-#{$group}{
+            color: #fafafa;
+            border: none;
+            background-color: $bg;
+        }
+    }   
+}
+.btn {
+    
+    border: solid 1px;
+    border-color:  #84817a;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: transparent;
+    outline: none;
+    font-size: 13px;
+}
+
+    
+@include make-btn;
+

@@ -1,10 +1,10 @@
 /* Framework Layout */
 
-// Global Configurations
-$display-grid: grid; 
-$display-flex: flex;
-$grid-config-size: 12;
-$grid-config-fr: 1fr;
+$grid-gaps: (
+    wide: 50px,
+    mid-gap: 25px,
+    narrow: 10px
+);
 
 .row{
     display: $display-grid;
@@ -23,3 +23,21 @@ $grid-config-fr: 1fr;
 .col-3{grid-column: span 3}
 .col-2{grid-column: span 2}
 .col-1{grid-column: span 1}
+
+@mixin create-grid($direction) {
+   @for $size from 1 through 12{
+       .col-#{$size}{
+           grid-#{$direction}:span $size;
+       }
+   }
+   @each $gap, $size in $grid-gaps {
+       .#{$gap}{
+           gap: $size
+       }
+   }
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    @include create-grid(column);
+}
