@@ -843,30 +843,6 @@ template {
   margin-top: 20px;
 }
 
-.mg-bottom {
-  margin-bottom: 20px;
-}
-
-.mgleft {
-  margin-left: 20px;
-}
-
-.mag-right {
-  margin-right: 20px;
-}
-
-.mg-all {
-  margin: 20px;
-}
-
-.mg-topbttom {
-  margin: 20px 0;
-}
-
-.mg-leftright {
-  margin: 0 20px;
-}
-
 nav {
   display: grid;
   align-items: center;
@@ -890,9 +866,6 @@ nav .logo img {
 nav.sticky {
   position: sticky;
   top: 0;
-}
-nav:hover {
-  box-shadow: 0 1px 1px 1px #bbb;
 }
 
 body {

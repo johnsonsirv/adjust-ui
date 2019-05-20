@@ -9,7 +9,7 @@ footer{
 }
 
 header{
-    height: 40vh;
+    height: 30vh;
     background-color: #242323;
 }
 h1{
@@ -17,8 +17,26 @@ h1{
 }
 nav{
     background-color: #525151;
+    text-align: center;
+    height: 16%;
 }
-
+nav ul{
+    height: 100%;
+}
+nav li {
+    height: 100%;
+    width: 15%;
+}
+nav li a{
+    text-decoration: none;
+    color: #000000;
+    display: block; 
+    height: 90%;
+    padding-top: 2px;
+}
+nav li a:hover{
+    background-color: #bdbdbd;
+}
 .featured-1{
     height: 30vh;
     border-radius: 5px;
