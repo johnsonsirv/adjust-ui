@@ -5,24 +5,11 @@ $grid-gaps: (
     mid-gap: 25px,
     narrow: 10px
 );
-
-.row{
-    display: $display-grid;
-    grid-template-columns: repeat($grid-config-size, $grid-config-fr);
-}
-
-.col-12{grid-column: $grid-config-size}
-.col-11{grid-column: span 11}
-.col-10{grid-column: span 10}
-.col-9{grid-column: span 9}
-.col-8{grid-column: span 8}
-.col-7{grid-column: span 7}
-.col-6{grid-column: span 6}
-.col-5{grid-column: span 5}
-.col-4{grid-column: span 4}
-.col-3{grid-column: span 3}
-.col-2{grid-column: span 2}
-.col-1{grid-column: span 1}
+$breakpoints: (
+    sm:768px,
+    md: 992px,
+    lg: 1024px
+);
 
 @mixin create-grid($direction) {
    @for $size from 1 through 12{
@@ -35,6 +22,9 @@ $grid-gaps: (
            gap: $size
        }
    }
+   @media only screen and (max-wdith) {
+       
+   }
 }
 .row{
     display: grid;
@@ -42,13 +32,3 @@ $grid-gaps: (
     @include create-grid(column);
 }
 
-
-.wide{
-  gap: 50px;
-}
-.mid-gap{
-  gap: 25px
-}
-.narrow{
-  gap: 10px;
-}

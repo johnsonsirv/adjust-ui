@@ -499,35 +499,90 @@ ol {
 .row .narrow {
   gap: 10px;
 }
+nav {
+  display: grid;
+  grid-template-columns: 15% 1fr;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+  min-height: 50px;
+  padding: 0 20px;
+  transition: all 0.1s linear;
+}
+nav .navlinks {
+  align-self: center;
+  font-size: calc(1em + 0.5vw);
+  font-weight: 200;
+  text-transform: capitalize;
+}
+nav ul li {
+  display: inline;
+  padding: 0 5px;
+}
+nav .logo img {
+  max-width: 90%;
+  justify-self: center;
+}
+nav.sticky {
+  position: sticky;
+  top: 0;
+}
+nav:hover {
+  box-shadow: 0 1px 1px 1px #bbb;
+}
+
+body {
+  font-family: verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: garamond, serif;
+}
+
+.text-small {
+  font-size: 9px;
+}
+
+.text-medium {
+  font-size: 20px;
+}
+
+.text-large {
+  font-size: 36px;
+}
+
+.text-xxl {
+  font-size: 72px;
+}
 
 /* Message alerts 
     Utilizes the partial _color
 */
-.alert-info, .alert-warning, .alert-error, .alert-success, .alert {
+.alert {
   border: 1px solid #ccc;
   padding: 10px;
   color: var(--electromagnet);
   color: #2f3640;
 }
 
-.alert-success {
-  border-color: var(--emerald);
-  border-color: #2ecc71;
-}
-
 .alert-error {
-  border-color: var(--redpigment);
   border-color: #ea2027;
 }
 
-.alert-warning {
-  border-color: var(--sunflower);
-  border-color: #f1c40f;
+.alert-danger {
+  border-color: #c0392b;
 }
 
 .alert-info {
-  border-color: var(--aqua);
-  border-color: #7fdb7f;
+  border-color: #12CBC4;
+}
+
+.alert-success {
+  border-color: #2ecc71;
+}
+
+.alert-warning {
+  border-color: #f1c40f;
 }
 
 /*# sourceMappingURL=adjust.css.map */
