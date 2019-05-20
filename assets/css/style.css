@@ -1,0 +1,21 @@
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+footer{
+    height: 40vh;
+}
+div, nav{
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+}
+header{
+    height: 40vh;
+}
+h1{
+    text-transform: capitalize;
+}
+.purple{
+    height: 20vh;
+}

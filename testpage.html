@@ -4,42 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/adjust.css">
     <title>Grid By Example</title>
-
-    <style>
-        main{
-            width: 90%;
-            margin: 0 auto;
-        }
-        footer{
-            height: 40vh;
-        }
-        div, nav{
-            border-style: solid;
-            border-width: 1px;
-            border-color: transparent;
-        }
-        header{
-            height: 40vh;
-        }
-        h1{
-            text-transform: capitalize;
-        }
-    </style>
+    <link rel="stylesheet" href="assets/css/adjust.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 <body>
-   <header class="row col-12 bg-black">
-
+   <header class="row">
+       <div class="col-12 border--red text-white">
+            <h2>Grid by Example</h2> 
+            <h3>Everything you need to learn CSS Grid Layout</h3>
+       </div>
    </header> 
-   <nav class="bg-gray"></nav>
-   <main class="row wide">
-    <div class="col-9 border--red">
-        <h1>CSS Grid Layout</h1>
-    </div>
-    <div class="col-3 border--gray">
-        The Video Tutorial
-    </div>
+   <nav class="bg-gray"> 
+        <ul class="navlinks">
+            <li><a href="#">Start Here</a></li>
+            <li>Examples</li>
+            <li>Patterns</li>
+            <li>Video tutorial</li>
+            <li>Resources</li>
+        </ul>
+   </nav>
+   <main>
+       <div class="row">
+            <div class="col-7">
+                <div class="purple">
+                    <h1>CSS Grid Layout</h1>
+                </div>
+            </div>
+            <div class="col-5">
+                The Video Tutorial
+            </div>
+       </div>
+  
+    <!--  
     <div class="col-12 bg-purple">
         <h1>Getting started guide</h1>
     </div>
@@ -66,8 +63,8 @@
     </div>
     <div class="col-12">
         <h1>grid bugs</h1>
-    </div>
+    </div>-->
    </main>
-    <footer class="row col-12 bg-black"></footer>
+<footer class="row col-12 bg-black"></footer> 
 </body>
 </html>
