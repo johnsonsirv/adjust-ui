@@ -1,6 +1,7 @@
 main{
     width: 90%;
     margin: 0 auto;
+    padding: 8px;
 }
 footer{
     height: 40vh;
@@ -12,10 +13,28 @@ div, nav{
 }
 header{
     height: 40vh;
+    background-color: #242323;
 }
 h1{
     text-transform: capitalize;
 }
-.purple{
+nav{
+    background-color: #0c0b0b;
+}
+
+.made-with-col-9{
     height: 20vh;
+    border-radius: 5px;
+    background-color: #161616;
+    color: #ffffff;
+}
+.made-with-col-3{
+    height: 20vh;
+    border-radius: 5px;
+    background-color: #6d6c6c50;
+    color: #000000;
+    margin-left: 12px;
+}
+.padding-8px{
+    padding: 8px;
 }

@@ -870,7 +870,6 @@ template {
 nav {
   display: grid;
   align-items: center;
-  min-height: 50px;
   padding: 0 20px;
   transition: all 0.1s linear;
 }
