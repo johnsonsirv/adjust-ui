@@ -4,7 +4,7 @@ main{
     padding: 8px;
 }
 footer{
-    height: 40vh;
+    height: 20vh;
 }
 div, nav{
     border-style: solid;
@@ -37,4 +37,11 @@ nav{
 }
 .padding-8px{
     padding: 8px;
+}
+
+.made-with-col-12{
+    height: 12vh;
+    border-radius: 5px;
+    background-color: #5e35b1;
+    color: #faf4f4;
 }
