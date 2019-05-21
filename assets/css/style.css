@@ -1,3 +1,6 @@
+body{
+    font-size: 14px;
+}
 main{
     width: 90%;
     margin: 0 auto;
@@ -12,9 +15,7 @@ header{
     height: 50%;
     background-color: #242323;
 }
-h1{
-    text-transform: capitalize;
-}
+
 nav{
     background-color: #525151;
     text-align: center;
@@ -29,7 +30,6 @@ nav li a{
     text-decoration: none;
     color: #000000;
     display: block; 
-    padding-top: 2px;
 }
 nav li a:hover{
     background-color: #bdbdbd;
