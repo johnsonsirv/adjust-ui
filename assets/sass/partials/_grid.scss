@@ -1,0 +1,34 @@
+/* Framework Layout */
+
+$grid-gaps: (
+    wide: 50px,
+    mid-gap: 25px,
+    narrow: 10px
+);
+$breakpoints: (
+    sm:768px,
+    md: 992px,
+    lg: 1024px
+);
+
+@mixin create-grid($direction) {
+   @for $size from 1 through 12{
+       .col-#{$size}{
+           grid-#{$direction}:span $size;
+       }
+   }
+   @each $gap, $size in $grid-gaps {
+       .#{$gap}{
+           gap: $size
+       }
+   }
+   @media only screen and (max-width: 768px) {
+    display: grid;
+    grid-template-columns: 100%;
+   }
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    @include create-grid(column);
+}

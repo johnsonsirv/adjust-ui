@@ -1,0 +1,26 @@
+/* Message alerts 
+    Utilizes the partial _color
+*/
+$alert-groups: (
+    error:  #ea2027,
+    danger: #c0392b,
+    info: #12CBC4,
+    success:  #2ecc71,
+    warning: #f1c40f
+);
+
+.alert {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: var(--electromagnet);
+    color:#2f3640;
+  }
+  
+  @mixin make-alerts {
+    @each $group, $bg in $alert-groups {
+        .alert-#{$group}{
+            border-color: $bg;
+        }
+    }   
+}
+@include make-alerts
