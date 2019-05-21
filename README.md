@@ -29,7 +29,7 @@ See the [Documentation](./documentation.md) page on how to get started
 
 ### Demo page created with Adjust UI
 
-This a [Demo Page](https://raw.githack.com/johnsonsirv/adjust-ui/dev/index.html) created using our CSS framework. 
+This a [Live Page](https://johnsonsirv.github.io/adjust-ui/) created using our CSS framework. 
 
 ### Contributors
 [Victor Okeugo](https://github.com/johnsonsirv) and [Xarri Jorge](https://github.com/xarrijorge)
