@@ -67,6 +67,9 @@ These sets of classes helps you apply colors and manipulate texts.
 * `text-medium`
 * `text-large`
 
+### Colors
+Comprises `bg-colors`, `border-colors`, `text-colors`
+
 
 
 ## Elements
