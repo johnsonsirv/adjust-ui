@@ -1,6 +1,7 @@
 # CSS Grid Framework
-In this project we created a custom grid-based CSS framework called Adjust UI.
-Adjust UI is a Sass framework that empowers you to create flexible, clear, and semantic website layouts. A modular, front end framework to easily and quickly help you jumpstart your process in building complex interfaces for the web right out the box. We adopted the 12-grid style in popular framewokrs like Bootstrap and Foundation, and included some commonly used components
+In this project we created a custom grid-based CSS framework called ###Adjust UI.
+
+It is a Sass framework that empowers you to create flexible, clear, and semantic website layouts. A modular, front end framework to easily and quickly help you jumpstart your process in building complex interfaces for the web right out the box. We adopted the 12-grid style in popular framewokrs like Bootstrap and Foundation, and included some commonly used components
 
 ##### This project only demontrates how to create a custom css framwork with full control on internal workings.
 
