@@ -67,6 +67,10 @@ Columns `.col-` are direct children of the `.row` container
 ## Elements
 
 ### Buttons
+The `button` is an essential element of any design. It's meant to look and behave as an interactive element of your page. The default button is creaed using the `.btn` class
+* `btn-primary`
+* `btn-primary`
+* `btn-warning`
 
 ### Message / Alerts
 
