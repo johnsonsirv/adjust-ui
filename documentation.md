@@ -1,7 +1,7 @@
 # Adjust UI Documentation
 Adjust UI is a free and open source Sass framework that empowers you to create flexible, clear, and semantic website layouts. A modular, front end framework to easily and quickly help you jumpstart your process in building complex interfaces for the web right out the box.
 
-# Overview
+## Overview
 You only need 1 CSS file to use Adjust UI
 ## Geting Started
 Download from the Github repository
@@ -12,7 +12,7 @@ https://github.com/johnsonsirv/adjust-ui/master/tree/css
 * Add a responsive viewport meta tag
 `<meta name="viewport" content="width=device-width, initial-scale=1">`
 
-# Starter Template
+## Starter Template
 ```sh
 <!DOCTYPE html>
 <html>
@@ -37,12 +37,12 @@ https://github.com/johnsonsirv/adjust-ui/master/tree/css
 </html>
 ```
 
-# Modularity
+## Modularity
 Adjust UI currently contains _13_ `.sass` files that you can import directly and use them as you like. 
 The file is located at `adjust-ui/sass/partials` folder
 
-# Layout
-`Row` simple grid container position your content horizontally
+## Layout
+`Row` is a simple grid container position your content horizontally
 The `.row` class can be used in any context and will contain direct children such as 
 `.col-12` for a 12-span column. You can use modifiers to control the gaps/gutters between columns. 
 ### 12-column Grid
@@ -60,3 +60,13 @@ Columns `.col-` are direct children of the `.row` container
       </div>
     </div>
 ```
+
+## Typography
+
+
+## Elements
+
+### Buttons
+
+### Message / Alerts
+
