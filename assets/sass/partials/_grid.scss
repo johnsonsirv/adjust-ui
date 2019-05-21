@@ -22,16 +22,13 @@ $breakpoints: (
            gap: $size
        }
    }
-   @media only screen and (max-wdith) {
-       
+   @media only screen and (max-width: 768px) {
+    display: grid;
+    grid-template-columns: 100%;
    }
 }
 .row{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     @include create-grid(column);
-}
-
-.mg-top{
-    margin-top: 20px;
 }

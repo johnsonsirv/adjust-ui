@@ -839,8 +839,11 @@ template {
 .row .narrow {
   gap: 10px;
 }
-.mg-top {
-  margin-top: 20px;
+@media only screen and (max-width: 768px) {
+  .row {
+    display: grid;
+    grid-template-columns: 100%;
+  }
 }
 
 nav {
