@@ -4,19 +4,9 @@ nav{
   padding: 0 20px;
   transition: all 0.1s linear;
 
-  .navlinks{
-    align-self: center;
-    font-size: calc(0.8em + 0.5vw);
-    font-weight: 200;
-    text-transform: capitalize;
-  }
   ul li{
     display: inline-block;
     padding: 0 5px;
-  }
-  .logo img{
-    max-width: 90%;
-    justify-self: center;
   }
   &.sticky{
     position: sticky;

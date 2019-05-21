@@ -4,12 +4,12 @@ main{
     
 }
 footer{
-    height: 35vh;
+    height: 27%;
     margin-top: 2em;
 }
 
 header{
-    height: 30vh;
+    height: 50%;
     background-color: #242323;
 }
 h1{
@@ -18,11 +18,9 @@ h1{
 nav{
     background-color: #525151;
     text-align: center;
-    height: 16%;
+    height: 20%;
 }
-nav ul{
-    height: 100%;
-}
+
 nav li {
     height: 100%;
     width: 15%;
@@ -31,14 +29,13 @@ nav li a{
     text-decoration: none;
     color: #000000;
     display: block; 
-    height: 90%;
     padding-top: 2px;
 }
 nav li a:hover{
     background-color: #bdbdbd;
 }
 .featured-1{
-    height: 30vh;
+    height: 27vh;
     border-radius: 5px;
     margin: 10px;
 }
@@ -47,7 +44,7 @@ nav li a:hover{
     color: #ffffff
 }
 .featured-2{
-    height: 30vh;
+    height: 27vh;
     border-radius: 5px;
     color: #000000;
     margin: 10px;
