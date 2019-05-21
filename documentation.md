@@ -1,2 +1,14 @@
-# adjust-ui
-Adjust UI is a Sass framework that empowers you to create flexible, clear, and semantic website layouts. A modular, front end framework to easily and quickly help you jumpstart your process in building complex interfaces for the web right out the box.
+# Adjust UI Documentation
+Adjust UI is a free and open source Sass framework that empowers you to create flexible, clear, and semantic website layouts. A modular, front end framework to easily and quickly help you jumpstart your process in building complex interfaces for the web right out the box.
+
+# Overview
+You only need 1 CSS file to use Adjust UI
+## Geting Started with Adjust UI
+Download from the Github repository
+https://github.com/johnsonsirv/adjust-ui/master/tree/css
+#### Code Requirements
+* Use HTML 5 doctype
+`<!DOCTYPE html>`
+* Add a responsive viewport meta tag
+`<meta name="viewport" content="width=device-width, initial-scale=1">`
+
