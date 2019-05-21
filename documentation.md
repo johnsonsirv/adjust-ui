@@ -73,4 +73,9 @@ The `button` is an essential element of any design. It's meant to look and behav
 * `btn-warning`
 
 ### Message / Alerts
-
+`.alert` enables you to create a message display on the web page.
+* `alert-error`
+* `alert-danger`
+* `alert-info`
+* `alert-success`
+* `alert-warning`
