@@ -11,8 +11,7 @@ https://github.com/johnsonsirv/adjust-ui/master/tree/css
 `<!DOCTYPE html>`
 * Add a responsive viewport meta tag
 `<meta name="viewport" content="width=device-width, initial-scale=1">`
-
-## Starter Template
+### Starter Template
 ```sh
 <!DOCTYPE html>
 <html>
