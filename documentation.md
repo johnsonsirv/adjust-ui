@@ -62,10 +62,15 @@ Columns `.col-` are direct children of the `.row` container
 ```
 
 ## Typography
+These sets of classes helps you apply colors and manipulate texts.
+* `text-small`
+* `text-medium`
+* `text-large`
+
 
 
 ## Elements
-
+Essential interface elements that only require a single CSS class.
 ### Buttons
 The `button` is an essential element of any design. It's meant to look and behave as an interactive element of your page. The default button is creaed using the `.btn` class
 * `btn-primary`
