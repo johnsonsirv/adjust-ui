@@ -20,7 +20,7 @@ https://github.com/johnsonsirv/adjust-ui/master/tree/css
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hello Adjust UI!</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <link rel="stylesheet" href="path_to_downloaded_css_file">
   </head>
   <body>
   <section class="row">
@@ -35,4 +35,28 @@ https://github.com/johnsonsirv/adjust-ui/master/tree/css
   </section>
   </body>
 </html>
+```
+
+# Modularity
+Adjust UI currently contains _13_ `.sass` files that you can import directly and use them as you like. 
+The file is located at `adjust-ui/sass/partials` folder
+
+# Layout
+`Row` simple grid container position your content horizontally
+The `.row` class can be used in any context and will contain direct children such as 
+`.col-12` for a 12-span column. You can use modifiers to control the gaps/gutters between columns. 
+### 12-column Grid
+The 12-grid column gives you freedom to slice you page into 12 sections.
+
+Columns `.col-` are direct children of the `.row` container
+
+```sh
+    <div class="row">
+      <div class="col-4">
+          <h1> I span 4 columns</h1>
+      </div>
+      <div class="col-8">
+          <h1> I span 8 columns</h1>
+      </div>
+    </div>
 ```
