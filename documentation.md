@@ -3,7 +3,7 @@ Adjust UI is a free and open source Sass framework that empowers you to create f
 
 # Overview
 You only need 1 CSS file to use Adjust UI
-## Geting Started with Adjust UI
+## Geting Started
 Download from the Github repository
 https://github.com/johnsonsirv/adjust-ui/master/tree/css
 #### Code Requirements
@@ -12,3 +12,27 @@ https://github.com/johnsonsirv/adjust-ui/master/tree/css
 * Add a responsive viewport meta tag
 `<meta name="viewport" content="width=device-width, initial-scale=1">`
 
+# Starter Template
+```sh
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Adjust UI!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+  </head>
+  <body>
+  <section class="row">
+    <div class="col-12">
+      <h1 class="text-large">
+        Hello World
+      </h1>
+      <p class="text-small">
+        My first website with <strong>Bulma</strong>!
+      </p>
+    </div>
+  </section>
+  </body>
+</html>
+```
