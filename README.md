@@ -33,10 +33,16 @@ This project was completed in line with requirements and standards provided by [
 
 #### This a [Live Page](https://johnsonsirv.github.io/adjust-ui/) created using Adjust UI CSS framework.
 
-### Demo page created with Adjust UI
+### Original Page (gridbyexample)
+
+<a href="https://gridbyexample.com" target="_blank">
+  <img alt="" src="https://github.com/johnsonsirv/adjust-ui/blob/master/docs/adjust_UI_grid_example.png" />
+</a>
+
+### Cloned Page (designed with Adjust UI)
 
 <a href="https://johnsonsirv.github.io/adjust-ui" target="_blank">
-  <img alt="" src="https://github.com/johnsonsirv/adjust-ui/blob/master/docs/adjust_UI_grid_example.png" />
+  <img alt="" src="https://github.com/johnsonsirv/adjust-ui/blob/master/docs/cloned_example.png" />
 </a>
 
 ### Built with:
